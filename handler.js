@@ -5,7 +5,7 @@ module.exports.gimmetime = async (event) => {
 
   if (event.queryStringParameters && event.queryStringParameters.tz) {
     tz = event.queryStringParameters.tz;
-
+    console.log('commit')
     if (!moment.tz.names().includes(tz)) {
       return {
         statusCode: '400',
