@@ -4,7 +4,6 @@
   "description": "Provides the current time at the specified timezone",
   "main": "handler.js",
   "scripts": {
-    "test": "jest *.js"
   },
   "repository": {
     "type": "git",
