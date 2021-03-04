@@ -4,7 +4,7 @@
   "description": "Provides the current time at the specified timezone",
   "main": "handler.js",
   "scripts": {
-    "lint": "eslint *.js",
+    "lint": "eslint \"*.js\"",
     "test": "jest *.js"
   },
   "repository": {
